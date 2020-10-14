@@ -6,6 +6,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, "/dist"),
     filename: "index_bundle.js",
+    //publicPath : /app/ when we uplaod project at that time this comes into picture
   }, //Output: producation time what is our file name and where it be created
   module: {
     rules: [
